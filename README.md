@@ -133,8 +133,8 @@ void rb_dump(ringBuffer* r, void* dest)
 r     :  Pointer returned by rb_create().
 ```
 ```
-dest  :  Pointer to location where the elements will be copied to. r→size * rb_fillLevel(r) number of bytes will be copied.
-         Therefore, r→size determines data alignment at dest.
+dest  :  Pointer to location where the elements will be copied to. r→size * rb_fillLevel(r) number of bytes
+         will be copied. Therefore, r→size determines data alignment at dest.
 ```
 
 <br/>
